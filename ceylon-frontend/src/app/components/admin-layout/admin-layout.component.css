@@ -1,0 +1,109 @@
+/*Search Bar*/
+.topnav .search-container {
+  float: right;
+  /*margin-right: 120px;*/
+}
+
+.topnav input[type=text] {
+  /*width: 850px;*/
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 3px;
+  font-size: 17px;
+  border: none;
+  background-color:gainsboro;
+  border-radius: 12px 12px 12px 12px;
+
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 6px;
+  color: white;
+  background-color:darkblue;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+
+/*Side Bar*/
+.sidebar {
+
+  width: 200px;
+  background-color:darkblue;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.logo1{
+  height: 150px;
+  width: 150px;
+  background-color:darkblue;
+  margin-left: 20px;
+}
+
+.sidebar .greeting{
+  margin-left: 20px;
+  color: lightskyblue;
+
+}
+
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+
+
+
+}
+
+.sidebar .logout{
+  margin-left: 15px;
+  margin-top: 5px;
+  background-color: darkorange;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+
+}
+
+.sidebar .logout:hover{
+
+  font-weight: bold;
+  background-color: red;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+
+}
+
+.sidebar a.active {
+  background-color: darkblue;
+  font-weight: bold;
+
+}
+
+.sidebar a:hover {
+  background-color: #9AC6FF;
+  color: black;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+

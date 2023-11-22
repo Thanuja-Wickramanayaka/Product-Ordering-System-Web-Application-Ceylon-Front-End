@@ -1,0 +1,98 @@
+
+
+.bgimg{
+
+  height: 100vh;
+  width: 100%;
+
+  background-image: linear-gradient(rgba(155, 44, 44, 0.2), rgba(5, 4, 4, 0.2));
+  background-position: center;
+  background-size:cover;
+  position:fixed;
+
+
+}
+
+
+
+
+  .anima0{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(rgb(238, 212, 57), rgb(232, 93, 0));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -900px 0;
+    animation: backcolor 6s linear infinite alternate;
+
+  }
+
+@keyframes backcolor{
+  100%{
+    background-position: 0 0;
+  }
+}
+
+
+.topic{
+  position: absolute;
+  text-align: center;
+  margin-left: 510px;
+  color: darkblue;
+  outline: #ff7f34;
+  font-family:Cambria;
+  font-weight: 900;
+
+
+}
+
+
+  .welcome_login-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-family:Cambria;
+    border: darkgreen;
+    padding: 10px 32px;
+    font-size: 16px;
+    background: rgb(255, 127, 52);
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px 10px;
+    margin-left: 715px;
+    margin-top: 380px;
+
+
+
+  }
+
+.welcome_login-btn:hover{
+  border:1px solid #ff0000;
+  background:blueviolet;
+  transition: 1s;
+  color: rgb(0, 0, 0);
+
+
+}
+
+
+
+  .footer{
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(4, 4, 47);
+  }
